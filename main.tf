@@ -27,7 +27,7 @@ resource "azuread_conditional_access_policy" "block_untrusted_access" {
 
     locations {
       included_locations = ["All"]
-      excluded_locations = ["13936a93-d6a4-47c8-b257-ef109483a433"]
+      excluded_locations = [""]
     }
 
     platforms {
