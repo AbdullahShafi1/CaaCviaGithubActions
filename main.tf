@@ -13,6 +13,7 @@ resource "azuread_conditional_access_policy" "block_untrusted_access" {
 
     client_app_types = ["browser", "mobileAppsAndDesktopClients"]
 
+
     applications {
       included_applications = ["All"]
     }
@@ -47,3 +48,4 @@ resource "azuread_conditional_access_policy" "block_untrusted_access" {
     disable_resilience_defaults               = false
   }
 }
+# Triggering GitHub Actions - test run
